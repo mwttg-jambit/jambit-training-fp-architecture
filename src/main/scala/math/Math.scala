@@ -8,7 +8,7 @@ object Math {
     * - Menge M
     * - Binäre Operation, assoziativ: op(a, op(b, c) ~~op(op(a, b), c)
     * - neutrales Element n bezüglich op(n, x) ~~ n ~~op(x, n)
-    * - zu jedem Element n ein inverses Element n^^1: op(x, x^-1) = n
+    * - zu jedem Element n ein inverses Element n^-1: op(x, x^-1) = n
     *
     * Menge n mit assoiativer Operation = Halbgruppe
     * Halbgroupe (semigroup) mit neutralen Element == Monoid
