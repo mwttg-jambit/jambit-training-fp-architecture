@@ -90,6 +90,7 @@ object Monads {
         }
     }
 
+  // Either[Error, *]: ein-stelliger Typkonstruktor A => Either[Error, A]
   def eitherMonad[Error]: Monad[Either[Error, *]] =
     new Monad[Either[Error, *]] {
       override def of[A](result: A): Either[Error, A] = Right(result)
